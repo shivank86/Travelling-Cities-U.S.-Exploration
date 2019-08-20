@@ -1,0 +1,44 @@
+
+Travelling Countries
+
+                                   
+Overview
+
+Project aims to create a random network of 100 countries provided in the list and implement the following three options on the created network –
+
+1. To go from your hometown to any other place.
+ 
+2. To visit all the connected cities in minimum time and cost.
+
+3. Want to reach a destination by showing love to your favourite city.
+
+In option one the project finds minimum distance and minimum cost path from the user inputted source and destination.
+
+In option two the project finds the minimum cost and distance of travelling all the cities connected to the source inputted by the user.
+
+In option three the project finds the minimum distance and the minimum cost path from source to destination via certain inputted country.
+Implementation
+
+The main algorithm used in the project is dijkstra’s 
+Single source shortest path algorithm.
+The algorithm implemented in two stages 
+
+1.  For calculating the minimum distance path (void dijkstrafordistance(struct Graph* graph2, int src).
+
+2. For calculating the minimum cost path (void dijkstraforcost(struct Graph* graph2, int src).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
